@@ -1,6 +1,6 @@
 <?php
 
-namespace SprykerEngine\Client\Messenger;
+namespace SprykerEngine\Client\Messenger\Service;
 
 use SprykerEngine\Shared\Messenger\Business\Model\AbstractMessenger;
 

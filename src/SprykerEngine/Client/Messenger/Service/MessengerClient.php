@@ -1,8 +1,8 @@
 <?php
 
-namespace SprykerEngine\Client\Messenger;
+namespace SprykerEngine\Client\Messenger\Service;
 
-use SprykerEngine\Client\Kernel\AbstractClient;
+use SprykerEngine\Client\Kernel\Service\AbstractClient;
 use SprykerEngine\Shared\Messenger\Business\Model\MessengerInterface;
 
 class MessengerClient extends AbstractClient
