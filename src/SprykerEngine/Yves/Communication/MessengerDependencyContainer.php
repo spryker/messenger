@@ -1,9 +1,9 @@
 <?php
 
-namespace SprykerEngine\Yves\Messenger;
+namespace SprykerEngine\Yves\Messenger\Communication;
 
 use SprykerEngine\Yves\Kernel\AbstractDependencyContainer;
-use SprykerEngine\Yves\Messenger\Plugin\TwigMessengerExtension;
+use SprykerEngine\Yves\Messenger\Communication\Plugin\TwigMessengerExtension;
 
 class MessengerDependencyContainer extends AbstractDependencyContainer
 {

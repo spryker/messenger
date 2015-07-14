@@ -4,11 +4,11 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerEngine\Yves\Messenger\Plugin;
+namespace SprykerEngine\Yves\Messenger\Communication\Plugin;
 
-use SprykerEngine\Yves\Kernel\AbstractPlugin;
+use SprykerEngine\Yves\Kernel\Communication\AbstractPlugin;
 
-class TwigMessengerPlugin extends AbstractPlugin
+class TwigMessenger extends AbstractPlugin
 {
 
     /**

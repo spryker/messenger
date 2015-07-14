@@ -1,6 +1,6 @@
 <?php
 
-namespace SprykerEngine\Yves\Messenger\Plugin;
+namespace SprykerEngine\Yves\Messenger\Communication\Plugin;
 
 use SprykerEngine\Shared\Messenger\Communication\Plugin\AbstractTwigMessengerExtension;
 
