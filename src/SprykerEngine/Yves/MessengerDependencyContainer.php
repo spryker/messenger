@@ -1,15 +1,15 @@
 <?php
 
-namespace SprykerEngine\Yves\Messenger\Communication;
+namespace SprykerEngine\Yves\Messenger;
 
-use SprykerEngine\Yves\Kernel\Communication\AbstractCommunicationDependencyContainer;
-use SprykerEngine\Yves\Messenger\Communication\Plugin\TwigMessengerExtension;
+use SprykerEngine\Yves\Kernel\AbstractDependencyContainer;
+use SprykerEngine\Yves\Messenger\Plugin\TwigMessengerExtension;
 
-class MessengerDependencyContainer extends AbstractCommunicationDependencyContainer
+class MessengerDependencyContainer extends AbstractDependencyContainer
 {
 
     /**
-     * @return TwigMessengerExtension
+     * @return \SprykerEngine\Yves\Messenger\Plugin\TwigMessengerExtension
      */
     public function createTwigMessengerExtension()
     {
