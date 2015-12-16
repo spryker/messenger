@@ -17,7 +17,7 @@ use Symfony\Component\HttpFoundation\Session\SessionInterface;
 /**
  * @method MessengerConfig getConfig()
  */
-class MessengerDependencyContainer extends AbstractBusinessFactory
+class MessengerBusinessFactory extends AbstractBusinessFactory
 {
 
     /**
