@@ -27,11 +27,6 @@ class FlashMessengerApplicationPlugin extends AbstractPlugin implements Applicat
      */
     protected const SERVICE_SESSION = 'session';
 
-    /**
-     * @param \Spryker\Service\Container\ContainerInterface $container
-     *
-     * @return \Spryker\Service\Container\ContainerInterface
-     */
     public function provide(ContainerInterface $container): ContainerInterface
     {
         $container->set(static::SERVICE_FLASH_MESSENGER, function (ContainerInterface $container) {
@@ -41,11 +36,6 @@ class FlashMessengerApplicationPlugin extends AbstractPlugin implements Applicat
         return $container;
     }
 
-    /**
-     * @param \Spryker\Service\Container\ContainerInterface $container
-     *
-     * @return \Symfony\Component\HttpFoundation\Session\Session
-     */
     protected function getSession(ContainerInterface $container): Session
     {
         return $container->get(static::SERVICE_SESSION);

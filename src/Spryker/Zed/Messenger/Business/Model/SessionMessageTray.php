@@ -23,10 +23,6 @@ class SessionMessageTray implements MessageTrayInterface
      */
     protected $session;
 
-    /**
-     * @param \Spryker\Zed\Messenger\Business\Model\MessageTranslatorInterface $messageTranslator
-     * @param \Symfony\Component\HttpFoundation\Session\SessionInterface $session
-     */
     public function __construct(
         MessageTranslatorInterface $messageTranslator,
         SessionInterface $session

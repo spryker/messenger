@@ -22,9 +22,6 @@ class InMemoryMessageTray implements MessageTrayInterface
      */
     protected static $messages;
 
-    /**
-     * @param \Spryker\Zed\Messenger\Business\Model\MessageTranslatorInterface $messageTranslator
-     */
     public function __construct(MessageTranslatorInterface $messageTranslator)
     {
         $this->messageTranslator = $messageTranslator;

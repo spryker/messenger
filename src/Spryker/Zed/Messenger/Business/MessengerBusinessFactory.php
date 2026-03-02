@@ -56,17 +56,11 @@ class MessengerBusinessFactory extends AbstractBusinessFactory
         return new SessionMessageTray($this->createMessageTranslator(), $this->getSession());
     }
 
-    /**
-     * @return \Spryker\Zed\Messenger\Business\Model\MessageTranslatorInterface
-     */
     public function createMessageTranslator(): MessageTranslatorInterface
     {
         return new MessageTranslator($this->getTranslationPlugins(), $this->createSymfonyTranslator());
     }
 
-    /**
-     * @return \Symfony\Contracts\Translation\TranslatorInterface
-     */
     public function createSymfonyTranslator(): TranslatorInterface
     {
         return new Translator(static::DUMMY_LOCALE);

@@ -17,9 +17,6 @@ class FlashMessenger implements FlashMessengerInterface
      */
     protected $flashBag;
 
-    /**
-     * @param \Symfony\Component\HttpFoundation\Session\Flash\FlashBagInterface $flashBag
-     */
     public function __construct(FlashBagInterface $flashBag)
     {
         $this->flashBag = $flashBag;
